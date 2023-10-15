@@ -60,7 +60,7 @@ body {
 .nav-list-wrapper .link {
     color: white;
     font-size: 17px;
-    font-weight: lighter;
+    font-weight: 500;
     transition: .2s;
 }
 .nav-list-wrapper .link:hover {
