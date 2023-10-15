@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact / Barshell University</title>
+    <link rel="stylesheet" type="text/css" href="./global.css" />
+    <link rel="stylesheet" type="text/css" href="./components.css" />
+    <link rel="stylesheet" href="./contact.css" />
+    <script src="./script.js" defer></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Start of the header -->
+    <header class="header-container">
+      <div class="header-col1">
+        <div class="logo-container">
+          <a href="./index.html"
+            ><img class="logo" src="./Images/Barshell-Logo.jpg" alt="site logo"
+          /></a>
+        </div>
+        <div class="call-us-container">
+          <img src="./Icons/phone-call.svg" alt="phone call icon" />
+          <p>+231-880-943-438</p>
+        </div>
+        <div class="email-us-container">
+          <a href="mailto:samueljoykpakima@gmail.com">
+            <img src="./Icons/mail.svg" alt="email icon" />
+          </a>
+          <p>samueljoykpakima@gmail.com</p>
+        </div>
+        <div class="our-location-container">
+          <img src="./Icons/map-pin.svg" alt="location icon" />
+          <p>Paynesville City Hall,</p>
+          <p>Howard Avenue P.O.Box 4676</p>
+        </div>
+      </div>
+      <div class="menu-icon-container">
+        <img id="open-menu-icon" src="./Icons/menu.svg" alt="menu icon" />
+      </div>
+    </header>
+    <div class="nav-bgoverlay"></div>
+    <!-- menu bar setion -->
+    <div class="menu-bar-bg">
+      <ul class="nav-list-container">
+        <div class="nav-list-wrapper">
+          <div class="close-icon-container">
+            <img id="close-menu-icon" src="./Icons/x.svg" alt="close icon" />
+          </div>
+          <li>
+            <a href="./index.html" class="header-link link">Home</a>
+          </li>
+          <li>
+            <a href="./about.html" class="header-link link">About Us</a>
+          </li>
+          <li>
+            <a href="./courses.html" class="header-link link">Our Courses</a>
+            <ul class="courses-drop-down">
+              <li><a href="">Bachelor of ICT</a></li>
+              <li><a href=""> Computer Science</a></li>
+              <li>Bachelor of Business</li>
+              <li>Banking & Finance</li>
+            </ul>
+          </li>
+          <li id="colleges-tap">
+            <a href="./colleges.html" class="header-link link">Colleges </a>
+            <ul class="colleges-drop-down">
+              <li><a href=""></a>Business College</li>
+              <li>
+                <a href=""
+                  ><abbr title="Information Communication Technology">ICT</abbr
+                  >College</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="./our-team.html" class="header-link link">Our Team</a>
+          </li>
+          <li>
+            <a href="./contact.html" class="header-link link">Contact Us</a>
+          </li>
+        </div>
+      </ul>
+    </div>
+    <!-- End of menu bar section -->
+    <!-- End of the header -->
+
+    <div class="container">
+      <div class="section">
+        <div class="form-wrapper">
+          <form action="example.php" class="contact-form">
+            <div class="name-container">
+              <label for="name"
+                >Full Name<br />
+                <input
+                  type="text"
+                  name="username"
+                  placeholder="Enter Name"
+                  required
+                />
+              </label>
+            </div>
+            <div class="email-container">
+              <label for="email"
+                >Email Address<br />
+                <input
+                  type="email"
+                  name="useremail"
+                  placeholder="Enter Email Address"
+                  required
+                />
+              </label>
+            </div>
+            <div class="degree-container">
+              <label for="degreee"
+                >Status<br />
+                <select name="status" id="status">
+                  <option value="empty"></option>
+                  <option value="High School Diploma">
+                    High School Diploma
+                  </option>
+                  <option value="barchelor degree">Barchelor Degree</option>
+                  <option value="AA degree">Master Degree</option>
+                  <option value="php">PHD Degree</option>
+                </select>
+              </label>
+            </div>
+            <div class="gender-container">
+              <label for="gender"
+                >Gender: <input type="radio" name="male" id="male" /> Male
+                <input type="radio" name="gender" id="female" /> Female
+              </label>
+            </div>
+            <div class="message-container">
+              <textarea
+                name="messageus"
+                id="message-box"
+                cols="30"
+                rows="10"
+                placeholder="message us..."
+              ></textarea>
+            </div>
+            <div class="button-container">
+              <button class="contact-button" type="reset">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- The start of the footer section -->
+    <footer class="footer-container">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-col1 col">
+            <div class="logo-container">
+              <a href="./index.html"
+                ><img
+                  class="logo"
+                  src="./Images/Barshell-Logo.jpg"
+                  alt="site logo"
+              /></a>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              officiis voluptas accusamus mollitia asperiores?
+            </p>
+            <div class="social-container">
+              <a href="#">
+                <img src="./Icons/facebook (1).svg" alt="social icon" />
+              </a>
+              <a href="#">
+                <img src="./Icons/instagram.svg" alt="social icon" />
+              </a>
+              <a href="#">
+                <img src="./Icons/youtube.svg" alt=" social icon" />
+              </a>
+              <a href="mailto:samueljoykpakima@gmail.com">
+                <img src="./Icons/mail.svg" alt="email icon" />
+              </a>
+            </div>
+          </div>
+          <div class="footer-col2 col">
+            <h3>Links</h3>
+            <ul class="footer-link-list">
+              <li>
+                <a class="footer-link" href="./index.html">Home</a>
+              </li>
+              <li>
+                <a href="./about.html" class="footer-link">About Us</a>
+              </li>
+              <li>
+                <a href="./courses.html" class="footer-link">Our Courses</a>
+              </li>
+              <li>
+                <a href="./colleges.html" class="footer-link">Colleges</a>
+              </li>
+              <li><a href="./blog.html" class="footer-link">Blog</a></li>
+              <li>
+                <a href="./our-team.html" class="footer-link">Our Team</a>
+              </li>
+              <li>
+                <a href="./contact.html" class="footer-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col3 col">
+            <h3>Partner</h3>
+            <ul class="partner-list">
+              <li>Havard Institute</li>
+              <li>IBM</li>
+              <li>NASCO</li>
+              <li>MOE</li>
+              <li>Washington Institute</li>
+            </ul>
+          </div>
+          <div class="footer-col4 col">
+            <h3>Support</h3>
+            <ul class="support-list">
+              <li>Havard Institute</li>
+              <li>IBM</li>
+              <li>NASCO</li>
+              <li>MOE</li>
+              <li>Washington Institute</li>
+            </ul>
+          </div>
+          <div class="footer-col5 col">
+            <h3>College Policy</h3>
+            <ul class="policy-list">
+              <li><a href="#0">Term & Condition</a></li>
+              <li><a href="#0">Students Handbook</a></li>
+              <li><a href="#0">Feedback</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- The end of the footer section -->
+  </body>
+</html>

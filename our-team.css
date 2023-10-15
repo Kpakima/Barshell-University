@@ -1,0 +1,26 @@
+.staff-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.staff-wrapper {
+    border: 1px solid #cacaca;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 300ms;
+}
+
+.staff-wrapper:hover {
+    box-shadow: 4px 4px 12px #cacaca;
+    cursor: pointer;
+}
+
+.staff-img {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    object-fit: cover;
+}
