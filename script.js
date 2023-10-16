@@ -26,3 +26,18 @@ navBgOverLayEl.addEventListener('click', () => {
     document.body.style='visibility: visible; height: initial; width: 100%; overflow-x: hidden';
     
 })
+
+
+// aos
+AOS.init(
+    {
+      offset: 200,
+      delay: 100,
+        duration: 400,
+        easing: 'ease',
+        once: false,
+        mirror: false,
+        anchorePlacement: 'top-bottom',
+       
+    }
+)
